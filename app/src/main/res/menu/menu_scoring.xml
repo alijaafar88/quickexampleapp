@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_rules"
+        android:title="@string/rules"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_item_restart"
+        android:title="@string/start_new_game"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_item_change"
+        android:title="@string/change_rules_to_equals_21"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_scoring"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ali.example.ScoringActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_scoring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/xxxsmall"
+        android:background="@color/colorPrimary">
+
+        <com.ali.example.views.GameScoreView
+            android:id="@+id/game_score_view"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:elevation="@dimen/xxxsmall"
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="@color/cool_gray" />
+
+    <LinearLayout
+        android:elevation="@dimen/xxxsmall"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <com.ali.example.views.RoundScoreView
+            android:id="@+id/round_score_red"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:indicatorBackground="@drawable/remaining_indicator_red"/>
+
+        <TextView
+            android:id="@+id/tv_round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/BaseTextAppearance"
+            android:textSize="@dimen/round_text_size"
+            tools:text="Round 1"/>
+
+        <com.ali.example.views.RoundScoreView
+            android:id="@+id/round_score_blue"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:indicatorBackground="@drawable/remaining_indicator_blue"/>
+
+    </LinearLayout>
+
+    <com.ali.example.views.FieldView
+        android:id="@+id/field_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

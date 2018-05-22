@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="BaseTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/offBlack</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TeamLabel" parent="BaseTextAppearance">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/label_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="GameScore" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/game_score_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RoundScore" parent="GameScore">
+        <item name="android:textSize">@dimen/round_score_text_size</item>
+    </style>
+
+    <style name="RulesHeader" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/rules_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RulesBody" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/rules_body_text_size</item>
+    </style>
+
+</resources>

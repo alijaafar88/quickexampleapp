@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Baggoid</string>
+
+    <!-- Scoreboard -->
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="round">Round %d</string>
+
+    <!-- Menu items -->
+    <string name="rules">Rules</string>
+    <string name="start_new_game">Start New Game</string>
+    <string name="change_rules_to_over_21"> Change rule to win over 21</string>
+    <string name="change_rules_to_equals_21"> Change rule to win at 21</string>
+
+    <!-- End of round dialog -->
+    <string name="dialog_title_round_win">%1$s team wins round %2$d!</string>
+    <string name="dialog_title_round_tie">Round %d ends in a tie!</string>
+    <plurals name="dialog_msg_round_win">
+        <item quantity="one">1 point has been added to their score.</item>
+        <item quantity="other">%s points have been added to their score.</item>
+    </plurals>
+    <plurals name="dialog_msg_round_over_max_score">
+        <item quantity="one">But they have lost 1 point because they have scored over 21 and now their score is 11</item>
+        <item quantity="other">But they have lost %d points because they have scored over 21 and now their score is 11</item>
+    </plurals>
+    <string name="dialog_msg_round_tie">Neither team scores any points this round.</string>
+    <string name="start_next_round">Start next round</string>
+
+    <!-- End of game dialog -->
+    <string name="dialog_title_game_over">%s team wins!</string>
+    <string name="final_score">Final Score:\nRed Team: %1$d, Blue Team: %2$d</string>
+
+    <!-- Rules -->
+    <string name="distance">Distance</string>
+    <string name="distance_body">27 feet between cornhole boards</string>
+    <string name="scoring">Scoring</string>
+    <string name="scoring_body">
+        3 points = bag thrown in hole\n1 point = bag lands on the board\n0 points = bag doesn\'t land on the board
+    </string>
+    <string name="rules_body">
+        Each player stands and throws four bean bags from behind each cornhole board. Opposing players
+        alternate throwing bags. No points are awarded to any bags that touch the ground. After the
+        four bags are tossed by each player, the points are tallied and the positive difference in
+        points (e.g. 3 points scored by blue and 4 points scored by red, the difference would be 1
+        point for red) is added to the team’s overall points total.
+    </string>
+    <string name="winner">Winner</string>
+    <string name="winner_body">
+        There are two ways to score the game to determine the winner:\n\n
+        1. The first team to reach 21 points, but must win by 2 points. \n\n
+        2. The first team to score 21 points exactly. If a team exceeds 21 points, their point total
+        will be reverted back to 11 points. \n\n
+        You can pick how the game is won in the menu when you start scoring a game.
+    </string>
+    <string name="saved_rule_selection">RULE_PREFERENCE</string>
+    <string name="saved_game_state_key">SAVED_GAMES_STATE_KEY</string>
+    <string name="saved_bags_state_key">SAVED_BAGS_STATE_KEY</string>
+    <string name="saved_previous_field_width">SAVED_PREVIOUS_FIELD_WIDTH</string>
+    <string name="saved_previous_field_height">SAVED_PREVIOUS_FIELD_HEIGHT</string>
+    <string name="saved_current_team">SAVED_CURRENT_TEAM</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:orientation="horizontal"
+    tools:parentTag="LinearLayout">
+
+    <TextView
+        android:layout_width="@dimen/large"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/small"
+        android:textAlignment="textEnd"
+        android:text="@string/red"
+        android:textAppearance="@style/TeamLabel" />
+
+    <TextView
+        android:id="@+id/tv_red_game_score"
+        android:layout_width="@dimen/medium"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/medium"
+        android:textAlignment="textStart"
+        tools:text="10"
+        android:textAppearance="@style/GameScore" />
+
+    <TextView
+        android:id="@+id/tv_blue_game_score"
+        android:layout_width="@dimen/medium"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        tools:text="12"
+        android:textAppearance="@style/GameScore" />
+
+    <TextView
+        android:layout_width="@dimen/large"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small"
+        android:textAlignment="textStart"
+        android:text="@string/blue"
+        android:textAppearance="@style/TeamLabel" />
+
+</merge>

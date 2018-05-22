@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:gravity="center"
+    tools:orientation="vertical"
+    tools:parentTag="LinearLayout">
+
+    <ImageView
+        android:id="@+id/iv_turn_indicator"
+        android:layout_width="@dimen/small"
+        android:layout_height="@dimen/xsmall"
+        android:visibility="invisible"
+        android:rotation="180"
+        android:tint="@color/orange"
+        android:src="@drawable/up_triangle" />
+
+    <TextView
+        android:id="@+id/tv_round_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp"
+        android:textAppearance="@style/RoundScore"
+        android:textAlignment="center"
+        tools:text="0" />
+
+    <LinearLayout
+        android:id="@+id/group_remaining_bags"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</merge>
