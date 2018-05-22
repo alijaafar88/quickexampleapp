@@ -1,6 +1,6 @@
-# GC Baggo
+# Small Example App
 
-GC Baggo is a simple Cornhole scoring application. Cornhole is a game where teams of two players play each other by throwing a bag full of corn to a board that has a hole on it. Each round consists of four throws for each team. If a bag lands in the ground, the team gets no points. If it lands in the board, the team gets 1 point. And if the bag goes in the hole, the team gets 3 points. At the end of each round, the team with the most points wins and adds the point difference to their total score.
+Simple Cornhole scoring application. Cornhole is a game where teams of two players play each other by throwing a bag full of corn to a board that has a hole on it. Each round consists of four throws for each team. If a bag lands in the ground, the team gets no points. If it lands in the board, the team gets 1 point. And if the bag goes in the hole, the team gets 3 points. At the end of each round, the team with the most points wins and adds the point difference to their total score.
 
 There's two alternatives to decide the winning team:
 
